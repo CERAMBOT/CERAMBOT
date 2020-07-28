@@ -5,7 +5,7 @@ The system firmware of the CERAMBOT printer is modified based on marlin and main
 We want to use CERAMBOT as an open platform to print a variety of viscous fluids in addition to printing clay. More open source materials can also be found here: Https://www.thingiverse.com/groups/cerambot
 
 
-##### 1. In the folder Marlin, you can open configuration.h through the [Arduino IDE].(https://www.arduino.cc/en/main/software?setlang=en) to modify and upload the firmware.
+1. In the folder Marlin, you can open configuration.h through the [Arduino IDE].(https://www.arduino.cc/en/main/software?setlang=en) to modify and upload the firmware.
 Among them, if the length of the carbon rod center of your device is 250mm, then you need to modify it as follows:
 
    >// Center-to-center distance of the holes in the diagonal push rods.
@@ -18,9 +18,9 @@ If the length of the carbon rod center of your device is 270mm, you need to modi
    
    >#define DELTA_DIAGONAL_ROD 270.00 // mm
    
-##### 2. In the folder WinRelease_V1.0Beta, you can use Arduloader to upload the 'Marlin.ino.mega.hex' file to Mega 2560.
+2. In the folder WinRelease_V1.0Beta, you can use Arduloader to upload the 'Marlin.ino.mega.hex' file to Mega 2560.
 
-##### 3. In the folder model, there is our slicing model gcode, which you can use directly.
+3. In the folder model, there is our slicing model gcode, which you can use directly.
 
 
 
