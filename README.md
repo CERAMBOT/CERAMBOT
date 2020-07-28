@@ -1,8 +1,8 @@
-# CERAMBOT Marlin 3D Printer Firmware
+# [CERAMBOT](https://www.cerambot.com/) Marlin 3D Printer Firmware
 
-The firmware and opensource about CERAMBOT
-The system firmware of the CERAMBOT printer is modified based on marlin and mainly utilizes functions such as M163.
-We want to use CERAMBOT as an open platform to print a variety of viscous fluids in addition to printing clay. More open source materials can also be found here: Https://www.thingiverse.com/groups/cerambot
+The firmware and opensource about [CERAMBOT](https://www.cerambot.com/) 
+The system firmware of the [CERAMBOT](https://www.cerambot.com/)  printer is modified based on marlin and mainly utilizes functions such as M163.
+We want to use [CERAMBOT](https://www.cerambot.com/)  as an open platform to print a variety of viscous fluids in addition to printing clay. More open source materials can also be found here: Https://www.thingiverse.com/groups/cerambot
 
 
 ##### 1. In the folder Marlin, you can open configuration.h through the [Arduino IDE](https://www.arduino.cc/en/main/software?setlang=en) to modify and upload the firmware.
