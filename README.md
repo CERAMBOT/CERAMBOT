@@ -18,6 +18,12 @@ If the length of the carbon rod center of your device is 270mm, you need to modi
    
    >#define DELTA_DIAGONAL_ROD 270.00 // mm
    
+If the length of the carbon rod center of your device is 280mm, you need to modify it as follows:
+
+   >// Center-to-center distance of the holes in the diagonal push rods.
+   
+   >#define DELTA_DIAGONAL_ROD 280.00 // mm
+   
 ##### 2. In the folder WinRelease_V1.0Beta, you can use Arduloader to upload the 'Marlin.ino.mega.hex' file to Mega 2560.
 
 ##### 3. In the folder model, there is our slicing model gcode, which you can use directly.
